@@ -14,7 +14,7 @@ except ImportError as ie:
     sys.exit("No module named palettable")
 
 
-FASTARecord = namedtuple("FASTA_Record", "id descr data")
+FASTARecord = namedtuple("FASTA_Record", "id descr data" )
 
 
 def storeFASTA(fastaFNH):
